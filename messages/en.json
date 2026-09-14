@@ -1,0 +1,22 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "shop": "Shop",
+    "recipes": "Recipes",
+    "contact": "Contact",
+    "bookNow": "Book Now",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+   "home": {
+    "hero": {
+      "eyebrow": "Premium Optical Care Since 2004",
+      "title": "See the World with Perfect Vision",
+      "description": "Premium eyewear, professional eye care, and personalized optical solutions designed for your lifestyle.",
+      "explore": "Explore Our Collection",
+      "bookExam": "Book an Eye Examination"
+    }
+  }
+}

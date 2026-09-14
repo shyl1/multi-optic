@@ -1,26 +1,206 @@
 @import "tailwindcss";
 
+/* Optic — premium optical brand design system
+   Burgundy / White / Light Grey / Charcoal / Gold
+*/
+
 :root {
+  /* Base */
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #3d3d3d;
+
+  /* Brand */
+  --primary: #6d1834;
+  --primary-foreground: #ffffff;
+  --primary-deep: #4f1026;
+  --primary-soft: #f7eef1;
+
+  /* Secondary */
+  --secondary: #f6f6f6;
+  --secondary-foreground: #3d3d3d;
+
+  /* Muted */
+  --muted: #f6f6f6;
+  --muted-foreground: #858585;
+
+  /* Accent */
+  --accent: #f6f6f6;
+  --accent-foreground: #6d1834;
+
+  /* Gold */
+  --gold: #c9a45c;
+
+  /* Card */
+  --card: #ffffff;
+  --card-foreground: #3d3d3d;
+
+  /* Popover */
+  --popover: #ffffff;
+  --popover-foreground: #3d3d3d;
+
+  /* Destructive */
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+
+  /* Borders / Inputs */
+  --border: #e9e9e9;
+  --input: #e9e9e9;
+  --ring: #6d1834;
+
+  /* Radius */
+  --radius: 0.25rem;
+
+  /* Custom */
+  --shadow-elegant:
+    0 24px 60px -30px rgb(109 24 52 / 35%);
+
+  --gradient-wine:
+    linear-gradient(
+      135deg,
+      var(--primary-deep),
+      var(--primary)
+    );
 }
 
 @theme inline {
+  /* Colors */
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary-deep: var(--primary-deep);
+  --color-primary-soft: var(--primary-soft);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-gold: var(--gold);
+
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Fonts */
+  --font-display: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-jost), Arial, sans-serif;
+  --font-arabic: var(--font-cairo), Arial, sans-serif;
+}
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.swiper,
+.swiper-wrapper,
+.swiper-slide {
+  height: 100%;
+}
+
+/* Hero pagination */
+.hero-swiper .swiper-pagination {
+  position: absolute;
+
+  bottom: 3rem !important;
+  left: 50% !important;
+
+  display: flex;
+  width: auto !important;
+
+  align-items: center;
+  gap: 12px;
+
+  transform: translateX(-50%);
+
+  z-index: 50 !important;
+  pointer-events: auto !important;
+}
+.hero-pagination-line {
+  width: 56px !important;
+  height: 2px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background-color: rgb(255 255 255 / 35%) !important;
+
+  opacity: 1 !important;
+
+  cursor: pointer;
+
+  transition:
+    width 0.5s ease,
+    background-color 0.5s ease;
+}
+
+.hero-pagination-line.swiper-pagination-bullet-active {
+  width: 80px !important;
+  background-color: #ffffff !important;
+}
+
+
+
+
+@layer base {
+  * {
+    border-color: var(--border);
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background: var(--background);
+    color: var(--foreground);
+
+    font-family: var(--font-jost), Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* English headings */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-cormorant), Georgia, serif;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  /* Arabic */
+  html[dir="rtl"] body {
+    font-family: var(--font-cairo), Arial, sans-serif;
+    letter-spacing: normal;
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] h4 {
+    font-family: var(--font-cairo), Arial, sans-serif;
+    letter-spacing: normal;
+  }
 }
