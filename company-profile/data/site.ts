@@ -34,3 +34,39 @@ export const NAV = [
 export const CONTACT = {
   phone: "+20 100 123 4567",
 };
+
+
+export const SERVICES = [
+  {
+    icon: "Glasses",
+    key: "prescriptionGlasses",
+  },
+  {
+    icon: "Sun",
+    key: "sunglasses",
+  },
+  {
+    icon: "Wrench",
+    key: "lensInstallation",
+  },
+  {
+    icon: "Ruler",
+    key: "frameAdjustment",
+  },
+  {
+    icon: "Hammer",
+    key: "glassesRepair",
+  },
+  {
+    icon: "CircleDot",
+    key: "lensReplacement",
+  },
+  {
+    icon: "MessageCircle",
+    key: "eyewearAssistance",
+  },
+  {
+    icon: "Sparkles",
+    key: "cleaningCare",
+  },
+];

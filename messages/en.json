@@ -18,5 +18,79 @@
       "explore": "Explore Our Collection",
       "bookExam": "Book an Eye Examination"
     }
+  },
+  "about": {
+    "eyebrow": "About Optic",
+
+    "about": {
+      "tab": "Who We Are",
+      "title": "A practice built on precision, care and trust",
+      "description": "Optic is dedicated to providing high-quality eyewear, professional vision care and expert fitting services.",
+      "description2": "Every visit begins with a thorough examination and ends with eyewear made precisely for your eyes, your face and the way you live."
+    },
+
+    "vision": {
+      "tab": "Our Vision",
+      "title": "A clearer vision for better everyday life",
+      "description": "Our vision is to become a trusted destination for modern vision care and eyewear, combining clinical excellence with thoughtful customer experience.",
+      "description2": "We continuously seek better solutions, better technology and better ways to help every customer see and feel their best."
+    },
+
+    "mission": {
+      "tab": "Our Mission",
+      "title": "Making professional vision care personal",
+      "description": "Our mission is to deliver reliable vision care, quality eyewear and expert service tailored to every individual.",
+      "description2": "We focus on accuracy, comfort and long-term relationships with our customers, ensuring every detail of their experience receives the attention it deserves."
+    },
+
+    "stats": {
+      "years": "Years of care",
+      "patients": "Patients served",
+      "branches": "Branches"
+    },
+
+    "learnMore": "Learn More",
+    "imageAlt": "Interior of the Optic boutique"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "Everything your eyewear needs",
+    "intro": "From choosing the right frame to lens installation, adjustments and repairs, we take care of the details that keep your glasses looking and feeling their best.",
+
+    "items": {
+      "prescriptionGlasses": {
+        "title": "Prescription Glasses",
+        "text": "A wide selection of frames and prescription eyewear for different styles and needs."
+      },
+      "sunglasses": {
+        "title": "Sunglasses",
+        "text": "Stylish sunglasses with quality lenses and UV protection."
+      },
+      "lensInstallation": {
+        "title": "Lens Installation",
+        "text": "Professional installation and replacement of lenses in your frames."
+      },
+      "frameAdjustment": {
+        "title": "Frame Adjustment",
+        "text": "Careful adjustments to improve the fit, comfort and alignment of your glasses."
+      },
+      "glassesRepair": {
+        "title": "Glasses Repair",
+        "text": "Repair services for hinges, nose pads, frames and other eyewear components."
+      },
+      "lensReplacement": {
+        "title": "Lens Replacement",
+        "text": "Replace scratched or damaged lenses while keeping your existing frame."
+      },
+      "eyewearAssistance": {
+        "title": "Eyewear Assistance",
+        "text": "Helpful guidance when choosing frames, lenses and the right fit for your needs."
+      },
+      "cleaningCare": {
+        "title": "Cleaning & Care",
+        "text": "Professional cleaning and care to help keep your eyewear looking its best."
+      }
+    }
   }
+
 }

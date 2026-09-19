@@ -10,6 +10,7 @@ import { MdPhoneEnabled } from "react-icons/md";
 import IconButton from "@/shared/IconButton/IconButton";
 
 import { BiMenu, BiPhone, BiX } from "react-icons/bi";
+import LanguageSwitcher from "@/shared/langSwitcher/LanguageSwitcher";
 
 
 
@@ -70,7 +71,7 @@ export default function Header() {
               }
             `}
           >
-            Optic
+            Multi Optic
           </span>
 
           <span
@@ -107,6 +108,8 @@ export default function Header() {
               {t(item.key)}
             </Link>
           ))}
+
+          <LanguageSwitcher headerScrolled={headerScrolled} />
         </nav>
 
         {/* Actions */}
