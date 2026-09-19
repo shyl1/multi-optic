@@ -6,6 +6,12 @@ import Services from "@/company-profile/sections/services/Services";
 import Testimonials from "@/company-profile/sections/Testimonials/Testimonials";
 import WhyChoose from "@/company-profile/sections/whychooseus/WhyChooseUs";
 
+export function generateStaticParams() {
+  return [
+    { locale: "ar" },
+    { locale: "en" },
+  ];
+}
 
 export default function page() {
   return (

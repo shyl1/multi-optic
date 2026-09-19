@@ -8,6 +8,13 @@ export const metadata: Metadata = {
   description: "Optic Platform",
 };
 
+// export function generateStaticParams() {
+//   return [
+//     { locale: "ar" },
+//     { locale: "en" },
+//   ];
+// }
+
 export default function RootLayout({
   children,
 }: {
