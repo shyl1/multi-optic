@@ -1,12 +1,14 @@
 {
   "header": {
     "home": "Home",
-    "about": "About",
+    "about": "About Us",
     "services": "Services",
-    "shop": "Shop",
-    "recipes": "Recipes",
+    "featuredProducts": "Our Collection",
+    "whyUs": "Why Choose Us",
+    "reviews": "Reviews",
     "contact": "Contact",
-    "bookNow": "Book Now",
+    "shop": "Shop",
+    "shopNow": "Shop Now",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
@@ -91,6 +93,131 @@
         "text": "Professional cleaning and care to help keep your eyewear looking its best."
       }
     }
+  },
+  "products": {
+    "eyebrow": "Our Collection",
+    "title": "Eyewear for every style",
+    "intro": "Explore a selection of our frames, sunglasses, lenses and eyewear accessories. Visit our store to discover the full collection.",
+    "viewStore": "Visit Our Store",
+
+    "categories": {
+      "Prescription Glasses": "Prescription Glasses",
+      "Sunglasses": "Sunglasses",
+      "Contact Lenses": "Contact Lenses",
+      "Premium Frames": "Premium Frames",
+      "Kids Glasses": "Kids Glasses",
+      "Reading Glasses": "Reading Glasses",
+      "Blue Light Glasses": "Blue Light Glasses",
+      "Accessories": "Accessories"
+    }
+  },
+  "whyChoose": {
+    "eyebrow": "Why Choose Multi Optic",
+    "title": "More than just a pair of glasses",
+    "intro": "We focus on quality eyewear, careful fitting and reliable service to make every visit simple and comfortable.",
+    "items": {
+      "qualityFrames": {
+        "title": "Quality Frames",
+        "text": "Carefully selected frames that combine style, comfort and everyday durability."
+      },
+      "lensOptions": {
+        "title": "Lens Options",
+        "text": "A variety of lens options to suit different prescriptions, preferences and lifestyles."
+      },
+      "professionalFitting": {
+        "title": "Professional Fitting",
+        "text": "Careful fitting and adjustment to help your glasses feel comfortable and sit properly."
+      },
+      "repairsAdjustments": {
+        "title": "Repairs & Adjustments",
+        "text": "Reliable repair and adjustment services to help keep your eyewear in great condition."
+      },
+      "personalizedAssistance": {
+        "title": "Personalized Assistance",
+        "text": "Helpful guidance when choosing frames, lenses and the right options for your needs."
+      },
+      "fairPrices": {
+        "title": "Fair Prices",
+        "text": "Clear and competitive pricing across our eyewear and services."
+      },
+      "fastService": {
+        "title": "Fast Service",
+        "text": "Efficient service for adjustments, repairs and selected lens orders."
+      },
+      "aftercare": {
+        "title": "Aftercare",
+        "text": "We are here to help with adjustments, care and support after your purchase."
+      }
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Customer Stories",
+    "title": "What our customers say",
+    "intro": "A few words from customers who chose Multi Optic for their eyewear needs.",
+    "previous": "Previous testimonial",
+    "next": "Next testimonial",
+    "items": {
+      "rana": {
+        "name": "Rana Haddad",
+        "role": "Architect",
+        "text": "I found exactly what I was looking for. The team helped me choose a frame that feels comfortable and suits my style."
+      },
+      "omar": {
+        "name": "Omar Nasser",
+        "role": "Software Engineer",
+        "text": "The team explained the different lens options clearly and helped me choose the right pair for long days in front of a screen."
+      },
+      "leila": {
+        "name": "Leila Farouk",
+        "role": "Teacher",
+        "text": "They were very patient while helping my daughter choose her first glasses. She loves wearing them."
+      }
+    }
+  },
+  "contact": {
+    "mapTitle": "Multi Optic location map",
+    "visit": "Visit Us",
+    "contact": "Contact",
+    "businessHours": "Business Hours",
+    "eyebrow": "Get in Touch",
+    "title": "We are here to help",
+    "intro": "Have a question about our frames, lenses, repairs or services? Send us a message and our team will get back to you.",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send Message",
+      "validationError": "Please check the highlighted fields.",
+      "success": "Thank you — our team will contact you shortly.",
+      "errors": {
+        "name": "Please enter your name",
+        "phone": "Please enter a valid phone number",
+        "email": "Invalid email address",
+        "subject": "Please add a subject",
+        "message": "Please write a short message"
+      }
+    }
+  },
+  "footer": {
+    "description": "Quality eyewear, reliable service and professional attention to every detail — from choosing your frame to caring for your glasses.",
+    "quickLinks": "Quick Links",
+    "home": "Home",
+    "products": "Our Collection",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "servicesTitle": "Our Services",
+    "contactTitle": "Contact Us",
+    "contactUs": "Get in Touch",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms & Conditions"
   }
+
+
+
+
 
 }

@@ -2,14 +2,11 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
 import { useTranslations } from "next-intl";
 import { CONTACT, NAV } from "@/company-profile/data/site";
 import Button from "@/shared/Button/Button";
-import { MdPhoneEnabled } from "react-icons/md";
 import IconButton from "@/shared/IconButton/IconButton";
-
-import { BiMenu, BiPhone, BiX } from "react-icons/bi";
+import { BiMenu, BiPhone, BiShoppingBag, BiX } from "react-icons/bi";
 import LanguageSwitcher from "@/shared/langSwitcher/LanguageSwitcher";
 
 
@@ -133,8 +130,8 @@ export default function Header() {
               }
             `}
           >
-            <MdPhoneEnabled className="size-3.5" />
-            {t("bookNow")}
+            <BiShoppingBag className="size-3.5" />
+            {t("shopNow")}
           </Button>
 
           {/* Mobile Menu */}
@@ -191,8 +188,8 @@ export default function Header() {
             href={phone}
             className="mt-4 w-full"
           >
-            <BiPhone className="size-4" />
-            {t("bookNow")}
+            <BiShoppingBag className="size-4" />
+            {t("shopNow")}
           </Button>
         </nav>
       </div>

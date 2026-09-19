@@ -1,3 +1,4 @@
+import Footer from "@/company-profile/components/layout/Footer";
 import Header from "@/company-profile/components/layout/Header";
 
 
@@ -13,7 +14,7 @@ export default function CompanyLayout({
 
       <main>{children}</main>
 
-      {/* <CompanyFooter /> */}
+     <Footer />
     </>
   );
 }
