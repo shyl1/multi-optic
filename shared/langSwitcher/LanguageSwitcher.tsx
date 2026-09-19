@@ -6,7 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import Button from "../Button/Button";
 import { BiGlobe } from "react-icons/bi";
 
-export default function LanguageSwitcher({ headerScrolled }: { headerScrolled: () => void }) {
+export default function LanguageSwitcher({ headerScrolled }: { headerScrolled: boolean}) {
     const locale = useLocale();
     const pathname = usePathname();
     const router = useRouter();

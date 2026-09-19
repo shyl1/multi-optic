@@ -81,7 +81,7 @@ export const SERVICES = [
     icon: "Sparkles",
     key: "cleaningCare",
   },
-];
+] as const;
 
 
 export type Product = {
