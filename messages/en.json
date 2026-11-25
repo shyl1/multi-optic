@@ -10,9 +10,10 @@
     "shop": "Shop",
     "shopNow": "Shop Now",
     "openMenu": "Open menu",
-    "closeMenu": "Close menu"
+    "closeMenu": "Close menu",
+    "concierge": "Atelier"
   },
-   "home": {
+  "home": {
     "hero": {
       "eyebrow": "Premium Optical Care Since 2004",
       "title": "See the World with Perfect Vision",
@@ -23,34 +24,29 @@
   },
   "about": {
     "eyebrow": "About Optic",
-
     "about": {
       "tab": "Who We Are",
       "title": "A practice built on precision, care and trust",
       "description": "Optic is dedicated to providing high-quality eyewear, professional vision care and expert fitting services.",
       "description2": "Every visit begins with a thorough examination and ends with eyewear made precisely for your eyes, your face and the way you live."
     },
-
     "vision": {
       "tab": "Our Vision",
       "title": "A clearer vision for better everyday life",
       "description": "Our vision is to become a trusted destination for modern vision care and eyewear, combining clinical excellence with thoughtful customer experience.",
       "description2": "We continuously seek better solutions, better technology and better ways to help every customer see and feel their best."
     },
-
     "mission": {
       "tab": "Our Mission",
       "title": "Making professional vision care personal",
       "description": "Our mission is to deliver reliable vision care, quality eyewear and expert service tailored to every individual.",
       "description2": "We focus on accuracy, comfort and long-term relationships with our customers, ensuring every detail of their experience receives the attention it deserves."
     },
-
     "stats": {
       "years": "Years of care",
       "patients": "Patients served",
       "branches": "Branches"
     },
-
     "learnMore": "Learn More",
     "imageAlt": "Interior of the Optic boutique"
   },
@@ -58,7 +54,6 @@
     "eyebrow": "Our Services",
     "title": "Everything your eyewear needs",
     "intro": "From choosing the right frame to lens installation, adjustments and repairs, we take care of the details that keep your glasses looking and feeling their best.",
-
     "items": {
       "prescriptionGlasses": {
         "title": "Prescription Glasses",
@@ -99,7 +94,6 @@
     "title": "Eyewear for every style",
     "intro": "Explore a selection of our frames, sunglasses, lenses and eyewear accessories. Visit our store to discover the full collection.",
     "viewStore": "Visit Our Store",
-
     "categories": {
       "Prescription Glasses": "Prescription Glasses",
       "Sunglasses": "Sunglasses",
@@ -109,7 +103,11 @@
       "Reading Glasses": "Reading Glasses",
       "Blue Light Glasses": "Blue Light Glasses",
       "Accessories": "Accessories"
-    }
+    },
+    "tryOnEligible": "Home Try-On",
+    "addTryOn": "Add to Try-On",
+    "viewDetails": "View Details",
+    "slots": "Choose up to 4 frames to try at home"
   },
   "whyChoose": {
     "eyebrow": "Why Choose Multi Optic",
@@ -214,10 +212,38 @@
     "rights": "All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms & Conditions"
+  },
+  "concierge": {
+    "eyebrow": "The Atelier",
+    "title": "Home try-on, fitted by hand",
+    "intro": "Select up to four frames and we bring them to you. Every fitting is carried out in person by our optician — never by an automated scan.",
+    "steps": {
+      "select": {
+        "title": "Select",
+        "text": "Choose up to four frames from the collection."
+      },
+      "visit": {
+        "title": "Private visit",
+        "text": "Our concierge arrives with your selection and prescription tools."
+      },
+      "fit": {
+        "title": "Bespoke fitting",
+        "text": "Frames are adjusted to your face by hand, in person."
+      }
+    },
+    "card": {
+      "label": "Doctor Concierge",
+      "name": "In-person optical assessment",
+      "credentials": "Licensed optometrist · Bespoke fitting specialist",
+      "availability": "Availability",
+      "slots": [
+        "Sat – Thu · 10:00",
+        "Sat – Thu · 14:00",
+        "Fri · 16:00"
+      ],
+      "note": "A physical, bespoke fitting — never a synthetic automated scan.",
+      "book": "Book Concierge",
+      "discover": "Discover Optical Atelier"
+    }
   }
-
-
-
-
-
 }

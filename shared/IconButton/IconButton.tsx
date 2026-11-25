@@ -1,7 +1,4 @@
-
 import { cn } from "@/lib/utils";
-
-
 
 type IconButtonProps = {
   children: React.ReactNode;
@@ -27,8 +24,8 @@ export default function IconButton({
       aria-expanded={ariaExpanded}
       onClick={onClick}
       className={cn(
-        "inline-flex items-center justify-center",
-        "transition-colors",
+        "inline-flex items-center justify-center rounded-none",
+        "transition-colors duration-300",
         className
       )}
     >

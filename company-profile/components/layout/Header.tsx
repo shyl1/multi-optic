@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import { CONTACT, NAV } from "@/company-profile/data/site";
 import Button from "@/shared/Button/Button";
 import IconButton from "@/shared/IconButton/IconButton";
-import { BiMenu, BiPhone, BiShoppingBag, BiX } from "react-icons/bi";
+import { BiMenu, BiShoppingBag, BiX } from "react-icons/bi";
 import LanguageSwitcher from "@/shared/langSwitcher/LanguageSwitcher";
 
 
